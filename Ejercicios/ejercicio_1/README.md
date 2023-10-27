@@ -5,48 +5,23 @@ Este proyecto contiene una app diseñada utilizando Flask, una base de datos sql
 ## Estructura del proyecto
 
 ejercicio_1/
-├─ api_script/
-│  └─ api_requests.py
-├─ app/
-│  ├─ exported_files/
-│  │  └─ productos.csv
-│  ├─ __init__.py
-│  ├─ app.py
-│  └─ routes.py
-├─ database_script/
-│  ├─ db_export_files/
-│  │  └─ productos.csv
-│  ├─ db_model.py
-│  ├─ db_querys.py
-│  └─ load_data.py
-├─ productos.db
-├─ requirements.txt
-└─ run.py
-
-
-
-
-
-
-
-ejercicio_1/
-├─ api_script/ # Carpeta que contiene todo lo relacionado a la API forus
-│  └─ api_requests.py # Función que obtiene los datos de la API
-├─ app/ # Carpeta que contiene la app
-│  ├─ exported_files/ # Aquí se guarda el archivo generado por la app
-│  │  └─ productos.csv 
-│  ├─ __init__.py # Se levanta la app
-│  ├─ app.py # Archivo que crea la app
-│  └─ routes.py # Se definen los parametros de la app, incluyendo exportación del archivo csv
-├─ database_script/ # Todo lo relacionado a la base de datos
-│  ├─ db_export_files/ # Carpeta en caso de requerir extraer datos directamente a la bd
-│  │  └─ productos.csv
-│  ├─ db_model.py # Creación de la base de datos
-│  ├─ db_querys.py # Script que permite exportar datos y posibles otras operaciones 
-│  └─ load_data.py # Script que inserta datos a la base de datos
-├─ productos.db # base de datos
-├─ requirements.txt 
-└─ run.py # main del proyecto
+- api_script/ # Carpeta que contiene todo lo relacionado a la API forus
+    - api_requests.py # Función que obtiene los datos de la API
+- app/ # Carpeta que contiene la app
+    - exported_files/ # Aquí se guarda el archivo generado por la app
+        - productos.csv 
+    - __init__.py # Se levanta la app
+    - app.py # Archivo que crea la app
+    - routes.py # Se definen los parametros de la app, incluyendo exportación del archivo csv
+- database_script/ # Todo lo relacionado a la base de datos
+    - db_export_files/ # Carpeta en caso de requerir extraer datos directamente a la bd
+        - productos.csv
+    - db_model.py # Creación de la base de datos
+    - db_querys.py # Script que permite exportar datos y posibles otras operaciones 
+    - load_data.py # Script que inserta datos a la base de datos
+- productos.db # base de datos
+- requirements.txt 
+- run.py # main del proyecto
 
 ## Descarga e Instalación
 
