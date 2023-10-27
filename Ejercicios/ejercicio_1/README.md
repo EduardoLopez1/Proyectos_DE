@@ -3,6 +3,31 @@
 Este proyecto contiene una app diseñada utilizando Flask, una base de datos sqlite y manejo de archivos mediante pandas. La que tiene como finalidad la inserción de datos mediante extracción de una API a una base de datos para luego obtener estos mismos en un archivo .csv.
 
 ## Estructura del proyecto
+
+ejercicio_1/
+├─ api_script/
+│  └─ api_requests.py
+├─ app/
+│  ├─ exported_files/
+│  │  └─ productos.csv
+│  ├─ __init__.py
+│  ├─ app.py
+│  └─ routes.py
+├─ database_script/
+│  ├─ db_export_files/
+│  │  └─ productos.csv
+│  ├─ db_model.py
+│  ├─ db_querys.py
+│  └─ load_data.py
+├─ productos.db
+├─ requirements.txt
+└─ run.py
+
+
+
+
+
+
 ejercicio_1/
 ├─ api_script/ # Carpeta que contiene todo lo relacionado a la API forus
 │  └─ api_requests.py # Función que obtiene los datos de la API
