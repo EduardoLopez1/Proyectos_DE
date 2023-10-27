@@ -28,6 +28,7 @@ ejercicio_1/
 
 
 
+
 ejercicio_1/
 ├─ api_script/ # Carpeta que contiene todo lo relacionado a la API forus
 │  └─ api_requests.py # Función que obtiene los datos de la API
