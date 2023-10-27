@@ -15,7 +15,7 @@ def export_to_csv(csv_file):
 
 
     # Ruta completa al archivo CSV
-    output_folder = 'C:/Users/elopez/Desktop/YO/FORUS/ejercicio_1/database_script/db_export_files'  # Reemplaza con la ruta de la carpeta deseada
+    output_folder = ''
     csv_path = os.path.join(output_folder, csv_file)
 
     # Guardar los datos en un archivo CSV en la carpeta deseada
