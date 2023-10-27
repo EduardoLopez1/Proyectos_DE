@@ -11,7 +11,7 @@ from app import app
 
 def main():
     
-    URL_API = 'https://sistemas.forus.cl/forus/challenge/dummy-api'
+    URL_API = ''
     table_name = 'producto'
     
     data = fetch_data(URL_API)
